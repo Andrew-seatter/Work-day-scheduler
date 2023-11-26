@@ -59,10 +59,9 @@ $(document).ready(function () {
            console.log(localTasks);
      }
 
-     //conditional statement where displaytasks function only runs if 'tasks' exists in local storage
-     if (localStorage.length > 1) {
+    
       displayTasks();
-     }
+    
      console.log(localStorage);
      
      buttonEl.on('click', saveText);
