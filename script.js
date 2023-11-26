@@ -59,7 +59,10 @@ $(document).ready(function () {
            console.log(localTasks);
      }
 
-     displayTasks();
+     if (localStorage.length > 0){
+      displayTasks();
+     }
+     
      console.log(localStorage);
      
      buttonEl.on('click', saveText);
