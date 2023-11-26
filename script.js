@@ -60,7 +60,7 @@ $(document).ready(function () {
      }
 
      //conditional statement where displaytasks function only runs if 'tasks' exists in local storage
-     if (localStorage.getItem('tasks').length > 0) {
+     if (localStorage.length > 1) {
       displayTasks();
      }
      console.log(localStorage);
