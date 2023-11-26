@@ -11,9 +11,7 @@ $(document).ready(function () {
       currentDayEl.text(now);
 
      
-      if (localStorage.length > 0){
-        displayTasks();
-       }
+
       
       //Loop for setting colors of boxes
       for (let i = 9; i < 18; i++){
@@ -61,8 +59,10 @@ $(document).ready(function () {
            console.log(localTasks);
      }
 
-     
-     
+     //conditional statement where displaytasks function only runs if 'tasks' exists in local storage
+     if (localStorage.getItem('tasks').length > 0) {
+      displayTasks();
+     }
      console.log(localStorage);
      
      buttonEl.on('click', saveText);
