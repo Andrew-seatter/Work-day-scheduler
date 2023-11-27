@@ -59,8 +59,9 @@ $(document).ready(function () {
            console.log(localTasks);
      }
 
-    
+    if (localStorage.length === 1) {
       displayTasks();
+    }
     
      console.log(localStorage);
      
