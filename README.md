@@ -6,7 +6,9 @@ This is a work day scheduler to keep track of your time throughout the day. I us
 As the day goes on all boxes that the time has passed will grey out, if the the time is current with the box it will change to red, and if the time has yet to come for that task the box will remain green. Using the save button will save your tasks to the respective boxes and display them upon revisiting the page. Learned a lot about Jquery on this project.
 
 ## Installation
-link to deployed application:
+link to deployed application: https://andrew-seatter.github.io/Work-day-scheduler/
+![website-screenshot](screenshot.png)
+in the above screenshot it is past 5pm and thus all boxes are greyed out
 
 
 ## Usage
